@@ -1,0 +1,17 @@
+{
+  "name": "lesson05",
+  "version": "0.1.5",
+  "description": "",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "grunt",
+    "lesson05"
+  ],
+  "author": "sebastian-fitzner",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
