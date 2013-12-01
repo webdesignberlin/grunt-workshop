@@ -1,4 +1,4 @@
-1. Sie sicher, dass Du Compass und SASS installiert hast
+1. Sei sicher, dass Du Compass und SASS installiert hast
 
 2. Öffne die Gruntfile.js und verschaffe Dir einen Überblick
 

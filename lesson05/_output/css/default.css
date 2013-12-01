@@ -1,0 +1,524 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-sourcemaps-0.12.2.sourcemaps.57a186c/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/icons/_icons.data.svg.scss */
+.social-share-icons li.facebook {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20style%3D%22background-color%3A%23ffffff00%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%3E%3Cpath%20d%3D%22M50%200c-27.614%200-50%2022.386-50%2050s22.386%2050%2050%2050c.399%200%20.797.009%201.194%200v-40.003h-11.194v-12.896h11.194v-8.514l.192-1.816c.32-3.631%203.838-9.203%208.443-11.206.576-.25%201.215-.564%201.791-.751.512-.188%201.215-.376%201.855-.501.704-.125%201.535-.25%202.303-.313h15.223v12.896h-7.036c-2.047-.063-4.861%202.191-5.245%204.32%200%20.125-.128.501-.128.689v5.196h12.409v12.896h-12.409l-.001%2036.433c18.408-7.378%2031.41-25.386%2031.41-46.43%200-27.614-22.385-50-50-50z%22%20fill%3D%22%23e00072%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+/* line 3, ../scss/icons/_icons.data.svg.scss */
+.social-share-icons li.share {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20style%3D%22background-color%3A%23ffffff00%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%3E%3Cpath%20d%3D%22M35.795%2024.724c0%204.323-3.818%207.205-7.636%207.205-4.773%200-7.159-2.882-7.159-7.205s2.386-6.724%207.159-6.724%207.636%202.402%207.636%206.724zm48.205%2026.417v27.858h-13.364v-25.937c-1.909-4.323-4.295-5.764-7.159-5.764-2.386%200-7.159%202.402-7.159%205.764v25.937h-13.364v-40.827h13.364c0%201.441%200%203.362.477%204.803%203.818-5.283%207.159-5.764%2011.932-5.764%208.591%200%2015.273%206.724%2015.273%2013.929zm-49.159-12.969v40.827h-13.363v-40.827h13.363zm15.159-38.173c-27.614%200-50%2022.386-50%2050s22.386%2050%2050%2050c27.615%200%2050-22.386%2050-50s-22.385-50-50-50z%22%20fill%3D%22%23e00072%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+/* line 5, ../scss/icons/_icons.data.svg.scss */
+.social-share-icons li.mail {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20style%3D%22background-color%3A%23ffffff00%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%3E%3Cpath%20d%3D%22M50%200c-27.614%200-50%2022.386-50%2050s22.386%2050%2050%2050c27.615%200%2050-22.386%2050-50s-22.385-50-50-50z%22%20fill%3D%22%23e00072%22%2F%3E%3Cpath%20d%3D%22M55.365%2045.857l-1.868%207.947c-1.294%205.142-5.015%208.259-9.302%208.259-3.316%200-5.258-2.337-5.258-6.623%200-8.492%204.934-15.502%2010.273-15.502%203.559%200%205.721%202.024%206.155%205.919zm-1.303%2016.496c.217%203.551%202.822%205.579%207.931%205.579%204.711%200%209.341-1.482%2013.077-4.368%206.398-5.004%209.83-12.073%209.83-20.357%200-8.337-3.432-15.136-10.398-20.555-5.604-4.035-13.709-6.501-22.137-6.501-13.576%200-24.052%204.783-31.351%2013.97-5.222%206.292-7.951%2013.771-7.951%2022.131%200%2010.065%203.899%2018.121%2011.753%2024.339%206.142%204.798%2014.048%207.347%2024.314%207.347%209.493%200%2018.387-2.935%2026.591-8.843l-3.817-5.195c-6.823%204.722-14.583%207.162-22.773%207.162-17.351%200-28.192-9.91-28.192-25.039%200-9.501%204.334-17.741%2011.959-23.401%204.997-3.706%2011.541-5.597%2019.387-5.597%2014.664%200%2024.816%208.75%2024.816%2020.257%200%209.577-6.497%2017.785-13.645%2017.785-1.706%200-2.518-.76-2.518-2.204%200-.38.081-.76.163-1.216l6.092-22.484h-7.991l-1.809%203.305c-1.809-2.938-4.622-4.406-8.667-4.406-10.682%200-18.662%208.688-18.662%2020.849%200%208.892%204.177%2013.026%2012.353%2013.026%205.096%200%208.655-1.668%2011.647-5.584z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+/* line 7, ../scss/icons/_icons.data.svg.scss */
+.social-share-icons li.twitter {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20style%3D%22background-color%3A%23ffffff00%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%3E%3Cpath%20d%3D%22M0%2050c0%2015.758%207.288%2029.815%2018.68%2038.98%204.46-1.143%209.102-3.258%2013.249-6.467-5.914-.259-14.143-5.691-15.686-11.641%202.057.259%204.371.259%206.943%200%200-.259.257-.259.514-.517-7.2-1.293-13.371-9.313-13.371-15.004v-1.552c2.057%201.035%204.114%201.552%206.171%202.069l1.286-.259c-3.6-1.552-7.2-9.054-7.2-11.641v-4.915c.514-1.811%201.029-3.88%202.057-5.691%206.429%209.571%2024.172%2017.591%2033.429%2017.591h1.543c-.257-1.552-.514-3.363-.514-4.139%200-9.571%207.457-16.815%2016.714-16.815%206.429%200%2012.343%205.432%2012.343%205.432%201.8%200%209.771-3.88%2010.286-3.88-1.029%202.846-3.6%206.467-6.943%208.795.257.259%200%20.259.771.259.514%200%205.4-1.294%208.229-2.328-1.286%202.328-5.914%206.467-7.971%208.278v4.915c-2.82%2030.433-25.577%2045.439-47.629%2045.529%205.335%201.941%2011.094%203%2017.1%203%2027.615%200%2050-22.386%2050-50s-22.385-50-50-50c-27.614%200-50%2022.386-50%2050z%22%20fill%3D%22%23e00072%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+/* line 16, ../scss/default.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #1B2024;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  color: #8F8F8F;
+}
+
+/* line 25, ../scss/default.scss */
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+  font-weight: 200;
+  color: #222222;
+}
+
+/* line 33, ../scss/default.scss */
+p, ol, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 38, ../scss/default.scss */
+p, ol {
+  line-height: 180%;
+}
+
+/* line 45, ../scss/default.scss */
+a {
+  color: #5C5539;
+}
+
+/* line 49, ../scss/default.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 53, ../scss/default.scss */
+a img {
+  border: none;
+}
+
+/* line 60, ../scss/default.scss */
+img.alignleft {
+  float: left;
+}
+
+/* line 64, ../scss/default.scss */
+img.alignright {
+  float: right;
+}
+
+/* line 68, ../scss/default.scss */
+img.aligncenter {
+  margin: 0px auto;
+}
+
+/* line 72, ../scss/default.scss */
+hr {
+  display: none;
+}
+
+/** WRAPPER */
+/* line 81, ../scss/default.scss */
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* line 86, ../scss/default.scss */
+.clearfix {
+  clear: both;
+}
+
+/* Header */
+/* line 92, ../scss/default.scss */
+#header-wrapper {
+  overflow: hidden;
+  height: 157px;
+  background: #DEE3E5;
+}
+
+/* line 98, ../scss/default.scss */
+#header {
+  width: 1000px;
+  height: 140px;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+/* Logo */
+/* line 107, ../scss/default.scss */
+#logo {
+  float: left;
+  width: 300px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 115, ../scss/default.scss */
+#logo h1 {
+  padding: 30px 0px 0px 0px;
+  background: url(images/img02.png) no-repeat left 50%;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+  font-size: 3.6em;
+}
+
+/* line 123, ../scss/default.scss */
+#logo h1 a {
+  text-decoration: none;
+  color: #1B2024;
+}
+
+/* Menu */
+/* line 130, ../scss/default.scss */
+#menu {
+  float: right;
+  width: 650px;
+  height: 80px;
+}
+
+/* line 136, ../scss/default.scss */
+#menu ul {
+  float: right;
+  margin: 0;
+  padding: 40px 0px 0px 0px;
+  list-style: none;
+  line-height: normal;
+}
+
+/* line 144, ../scss/default.scss */
+#menu li {
+  float: left;
+}
+
+/* line 148, ../scss/default.scss */
+#menu a {
+  display: block;
+  margin-left: 1px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #10202F;
+}
+
+/* line 161, ../scss/default.scss */
+#menu a:hover, #menu .current_page_item a {
+  text-decoration: none;
+  background: yellowgreen;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+/* Page */
+/* line 170, ../scss/default.scss */
+#page-wrapper {
+  overflow: hidden;
+  background: #F1F2E9;
+}
+
+/* line 175, ../scss/default.scss */
+#page {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  color: #8F8F8F;
+}
+
+/** CONTENT */
+/* line 185, ../scss/default.scss */
+#content {
+  float: right;
+  width: 660px;
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 191, ../scss/default.scss */
+#content h2 {
+  padding: 0px 0px 30px 0px;
+  letter-spacing: -1px;
+  font-size: 36px;
+  color: #222222;
+}
+
+/* line 198, ../scss/default.scss */
+#content .subtitle {
+  padding: 0px 0px 30px 0px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: #81AFC5;
+}
+
+/** SIDEBAR */
+/* line 209, ../scss/default.scss */
+#sidebar {
+  float: left;
+  width: 290px;
+  padding: 0px 0px 20px 0px;
+}
+
+/* line 215, ../scss/default.scss */
+#sidebar h2 {
+  padding: 0px 0px 30px 0px;
+  letter-spacing: -1px;
+  font-size: 2em;
+}
+
+/* Footer */
+/* line 223, ../scss/default.scss */
+#footer {
+  height: 100px;
+  margin: 0 auto;
+  padding: 50px 0px 15px 0px;
+  font-family: 'Abel', sans-serif;
+}
+
+/* line 230, ../scss/default.scss */
+#footer p {
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4D565E;
+}
+
+/* line 240, ../scss/default.scss */
+#footer a {
+  color: #4D565E;
+}
+
+/* Three Column Footer Content */
+/* line 246, ../scss/default.scss */
+#footer-wrapper {
+  background: #FFFFFF;
+}
+
+/* line 250, ../scss/default.scss */
+#footer-content {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  color: #717171;
+}
+
+/* line 261, ../scss/default.scss */
+#footer-content h2 {
+  margin: 0px;
+  padding: 0px 0px 30px 0px;
+  letter-spacing: -1px;
+  font-size: 30px;
+  color: #B5A871;
+}
+
+/* line 269, ../scss/default.scss */
+#footer-content h2 span {
+  color: #5C5539;
+}
+
+/* line 274, ../scss/default.scss */
+#footer-content #fbox1 {
+  float: left;
+  width: 320px;
+  margin-right: 20px;
+}
+
+/* line 280, ../scss/default.scss */
+#footer-content #fbox2 {
+  float: right;
+  width: 640px;
+}
+
+/* Banner Style */
+/* line 287, ../scss/default.scss */
+#banner-wrapper {
+  overflow: hidden;
+  height: 345px;
+  padding: 40px 0px;
+  background: url(images/img03.png) repeat;
+}
+
+/* line 294, ../scss/default.scss */
+#banner {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* Button Style */
+/* line 302, ../scss/default.scss */
+.button-style {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 7px 30px;
+  background: #1B2024;
+  border-radius: 5px;
+}
+
+/* line 310, ../scss/default.scss */
+.button-style a {
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* List Style 1 */
+/* line 322, ../scss/default.scss */
+ul.style1 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 328, ../scss/default.scss */
+ul.style1 li {
+  padding: 20px 0px 20px 0px;
+  border-top: 1px dashed #E6E7DC;
+}
+
+/* line 333, ../scss/default.scss */
+ul.style1 a {
+  text-decoration: none;
+  color: #6B6B6B;
+}
+
+/* line 338, ../scss/default.scss */
+ul.style1 a:hover {
+  text-decoration: underline;
+  color: #6B6B6B;
+}
+
+/* line 343, ../scss/default.scss */
+ul.style1 .first {
+  padding-top: 0px;
+  border-top: none;
+}
+
+/* List Style 2 */
+/* line 350, ../scss/default.scss */
+ul.style2 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 356, ../scss/default.scss */
+ul.style2 li {
+  padding: 9px 0px 9px 0px;
+  border-top: 1px dashed #E6E7DC;
+}
+
+/* line 361, ../scss/default.scss */
+ul.style2 .first {
+  padding-top: 0px;
+  border-top: none;
+}
+
+/* List style 3 */
+/* line 368, ../scss/default.scss */
+ul.style3 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 374, ../scss/default.scss */
+ul.style3 li {
+  padding: 20px 0px 20px 0px;
+  background: url(images/link-style1-divider.png) repeat-x left top;
+}
+
+/* line 379, ../scss/default.scss */
+ul.style3 p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 384, ../scss/default.scss */
+ul.style3 img {
+  float: left;
+  margin-top: 3px;
+  margin-right: 20px;
+}
+
+/* line 390, ../scss/default.scss */
+ul.style3 .posted {
+  padding: 10px 0px 0px 0px;
+  font-size: 8pt;
+  color: #A2A2A2;
+}
+
+/* line 396, ../scss/default.scss */
+ul.style3 .first {
+  padding-top: 0px;
+  background: none;
+}
+
+/* line 402, ../scss/default.scss */
+.social-share-icons {
+  margin: 1em;
+  float: right;
+}
+/* line 405, ../scss/default.scss */
+.social-share-icons li {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-left: 1em;
+}
