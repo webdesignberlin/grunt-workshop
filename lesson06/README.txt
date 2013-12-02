@@ -1,18 +1,12 @@
-1. Installiere Dir grunticon-sass via cmd
-npm i grunticon-sass
+1. Installiere Dir alle abhängigen Pakete und grunt-contrib-connect via cmd
+npm i
+npm i grunt-contrib-connect --save-dev
 
-2. Ersetze dir Phantom-Version für (endlich) gute PNG-Dateien
-Dazu downloadest Du Dir Phantom.js ab Version 1.9.2: https://github.com/ariya/phantomjs/releases
+2. Installiere Dir schon einmal das Plugin für den Browser (optional)
 
-Ersetze den Inhalt von "lib" in "node_modules\grunticon-sass\node_modules\phantomjs" mit dem Inhalt des Releases.
+3. Füge den Task "connect" hinzu und nenne die Aufgabe "server", der ebenfalls "watch" beinhaltet
 
-3. Füge den Task "grunticon-sass" hinzu und nenne die Aufgabe "icons"
-Achte darauf, den Task in Anführungszeichen zu setzen!
-Teste das Ganze ...
+5. Integriere Livereload für die folgenden Tasks: watch, connect
+Benutze dabei die Optionen aus connect, sodass livereload nicht doppelt gepflegt werden muss.
 
-5. Installiere Dir dr-grunt-svg-sprites via cmd
-npm i dr-grunt-svg-sprites
-
-6. Füge den Task "dr-grunt-svg-sprites" hinzu und nenne die Aufgabe "sprites"
-Führe diesen aus ... 
-
+6. Führe nun "grunt server" aus und schau, ob alles funktioniert

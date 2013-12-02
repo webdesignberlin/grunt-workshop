@@ -1,0 +1,3 @@
+html.datauri.svg {
+	@import "_icons.data.svg.scss";
+}
