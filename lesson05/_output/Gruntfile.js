@@ -24,6 +24,7 @@ module.exports = function (grunt) {
 
         bgShell: {
             _defaults: {
+				// let the command work in background
                 bg: true
             },
             watchCompass: {
@@ -56,7 +57,7 @@ module.exports = function (grunt) {
                     // grunticon loader code snippet filename
                     loadersnippet: false,
 
-                    // folder name (within dest) for png output
+                    // folder name (within dest) for png output, depending on the scss output
                     pngfolder: "../images/icons-png/",
 
                     // prefix for CSS classnames
@@ -65,8 +66,10 @@ module.exports = function (grunt) {
                     // This allows root-relative referencing of the CSS. If you don't want a prefix path, set to to ""
                     cssbasepath: "/",
 
-                    // my addon
+                    // placeholder extends
                     pseudoselectors: true,
+						
+					// path to icons for css
                     pngPath: 'images/icons-png/'
                 }
             }

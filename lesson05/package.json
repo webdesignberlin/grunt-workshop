@@ -12,6 +12,9 @@
   "author": "sebastian-fitzner",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.2"
+    "grunt": "~0.4.2",
+    "grunt-bg-shell": "~2.3.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0"
   }
 }
