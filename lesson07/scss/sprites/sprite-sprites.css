@@ -1,0 +1,111 @@
+
+.sprite-share-facebook-small {
+	width: 50px;
+	height: 50px;
+	background-position: -0px 0;
+}
+
+.sprite-share-in-small {
+	width: 50px;
+	height: 50px;
+	background-position: -53px 0;
+}
+
+.sprite-share-mail-small {
+	width: 50px;
+	height: 50px;
+	background-position: -105px 0;
+}
+
+.sprite-share-twitter-small {
+	width: 50px;
+	height: 50px;
+	background-position: -158px 0;
+}
+
+.sprite-share-facebook-small,
+.sprite-share-in-small,
+.sprite-share-mail-small,
+.sprite-share-twitter-small {
+	background-image: url(../../images/sprites/sprite-sprites-small-sprite.png);
+	background-size: 210px 50px;
+}
+
+.sprite-share-facebook-medium {
+	width: 100px;
+	height: 100px;
+	background-position: -0px 0;
+}
+
+.sprite-share-in-medium {
+	width: 100px;
+	height: 100px;
+	background-position: -105px 0;
+}
+
+.sprite-share-mail-medium {
+	width: 100px;
+	height: 100px;
+	background-position: -210px 0;
+}
+
+.sprite-share-twitter-medium {
+	width: 100px;
+	height: 100px;
+	background-position: -315px 0;
+}
+
+.sprite-share-facebook-medium,
+.sprite-share-in-medium,
+.sprite-share-mail-medium,
+.sprite-share-twitter-medium {
+	background-image: url(../../images/sprites/sprite-sprites-medium-sprite.png);
+	background-size: 420px 100px;
+}
+
+.sprite-share-facebook-large {
+	width: 125px;
+	height: 125px;
+	background-position: -0px 0;
+}
+
+.sprite-share-in-large {
+	width: 125px;
+	height: 125px;
+	background-position: -132px 0;
+}
+
+.sprite-share-mail-large {
+	width: 125px;
+	height: 125px;
+	background-position: -263px 0;
+}
+
+.sprite-share-twitter-large {
+	width: 125px;
+	height: 125px;
+	background-position: -394px 0;
+}
+
+.sprite-share-facebook-large,
+.sprite-share-in-large,
+.sprite-share-mail-large,
+.sprite-share-twitter-large {
+	background-image: url(../../images/sprites/sprite-sprites-large-sprite.png);
+	background-size: 525px 125px;
+}
+
+.svg .sprite-share-facebook-small,
+.svg .sprite-share-in-small,
+.svg .sprite-share-mail-small,
+.svg .sprite-share-twitter-small,
+.svg .sprite-share-facebook-medium,
+.svg .sprite-share-in-medium,
+.svg .sprite-share-mail-medium,
+.svg .sprite-share-twitter-medium,
+.svg .sprite-share-facebook-large,
+.svg .sprite-share-in-large,
+.svg .sprite-share-mail-large,
+.svg .sprite-share-twitter-large {
+	background-image: url(../../images/sprites/sprite-sprites-sprite.svg);
+}
